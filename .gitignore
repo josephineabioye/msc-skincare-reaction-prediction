@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datasets
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large output files
+results/figures/*.png
+results/figures/*.jpg
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.venv/
+env/
