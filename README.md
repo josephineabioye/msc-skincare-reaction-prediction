@@ -20,7 +20,7 @@ The project uses publicly available skincare product and consumer review data fr
 ## Repository structure
 
 - `notebooks/` - Jupyter and Colab notebooks for exploratory work and experiments
-- `src/` - Python scripts and modules (to be added as the project develops)
+- `src/` - Python scripts and modules
 - `data/` - Data directory (note: actual datasets are not included in this repository; see Dataset section below)
 - `results/` - Output files, figures, and evaluation results
 - `references/` - Background documents and key references
