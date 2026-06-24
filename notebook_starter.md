@@ -43,24 +43,4 @@ DATA_PROCESSED = f'{DRIVE_PROJECT}/data/processed'
 print(f"Working in: {os.getcwd()}")
 ```
 
-## Working with data
 
-Read from Drive:
-
-```python
-df = pd.read_csv(f'{DATA_RAW}/dataset.csv')
-```
-
-Save to Drive:
-
-```python
-df.to_parquet(f'{DATA_PROCESSED}/cleaned.parquet')
-```
-
-## Committing changes cell
-
-```python
-!git add .
-!git commit -m "<describe what changed>"
-!git push
-```
