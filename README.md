@@ -27,14 +27,17 @@ The project uses publicly available skincare product and consumer review data fr
 
 ## Dataset
 
-The datasets used in this project is publicly available through Kaggle. 
-Dataset - Sephora Products and Skincare Reviews
-Author: Nady Inky
-URL: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews
-Modifications Made: 
-- Filtered to only skincare products
-- Filtered to only English reviews
-- Labled: a new reaction column was added for reaction (1) or no reaction (0)
+The dataset used in this project is publicly available through Kaggle.
+
+**Dataset:** Sephora Products and Skincare Reviews  
+**Author:** Nady Inky  
+**URL:** [https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews)
+
+### Modifications Made
+
+- Filtered to include only skincare products.
+- Filtered to include only English-language reviews.
+- Added a new `reaction` column to label reviews as reaction (`1`) or no reaction (`0`).
 
 ## Status
 
